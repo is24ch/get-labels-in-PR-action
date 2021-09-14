@@ -1,0 +1,19 @@
+name: 'Get Labels In the PR'
+description: 'Extract labels from the PR and assign it to GitHub environment variables.'
+inputs:
+  GITHUB_TOKEN :
+    description: 'GitHub Token for getting the pull request'
+    required: true
+  GITHUB_API_URL:
+    description: 'Your GitHub api domain. Default is https://api.github.com'
+    required: false
+    default: 'https://api.github.com'
+outputs:
+  success:
+    description: 'Returns true if action can get labels, otherwise false'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'tag'
+  color: 'green'

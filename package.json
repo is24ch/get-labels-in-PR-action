@@ -1,0 +1,36 @@
+{
+  "name": "get-labels-in-pr-action",
+  "version": "1.0.0",
+  "description": "Returns labels in the PR",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/action.js",
+    "prepare": "ncc build src/index.js -o dist",
+    "all": "npm run lint && npm run prepare"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scout24ch/is24-get-labels-in-PR-action.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "JavaScript",
+    "PR",
+    "Pull Request",
+    "Label"
+  ],
+  "author": "Victor Nguyen (dungnguyen@nvg.vn)",
+  "bugs": {
+    "url": "https://github.com/scout24ch/is24-get-labels-in-PR-action/issues"
+  },
+  "homepage": "https://github.com/scout24ch/is24-get-labels-in-PR-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.5.0",
+    "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.31.0",
+    "eslint": "^7.32.0"
+  }
+}
