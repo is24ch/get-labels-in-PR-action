@@ -1,7 +1,7 @@
 # Get Labels in PR 
 Get all labels in the PR and assign it to GitHub environment
 
-##Disclaimer
+## Disclaimer
 Yes this repo is public by design. :)
 
 ## Inputs
