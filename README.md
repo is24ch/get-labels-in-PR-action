@@ -1,6 +1,8 @@
 # Get Labels in PR 
 Get all labels in the PR and assign it to GitHub environment
 
+##Disclaimer
+Yes this repo is public by design. :)
 
 ## Inputs
 - `GITHUB_TOKEN` - set to `secrets.GITHUB_TOKEN`, this is provided by GitHub Actions
