@@ -1,8 +1,11 @@
-# Get Labels in PR 
-Get all labels in the PR and assign it to GitHub environment
 
 ## Disclaimer
-Yes this repo is public by design. :)
+The custom GitHub Action must be public repository. Also GitHub doesn't support to call action from the internal repository yet.
+This issue is still open in the GitHub roadmap https://github.com/github/roadmap/issues/74
+In other words, this repo is public by design. :)
+
+# Get Labels in PR 
+Get all labels in the PR and assign it to GitHub environment
 
 ## Inputs
 - `GITHUB_TOKEN` - set to `secrets.GITHUB_TOKEN`, this is provided by GitHub Actions
