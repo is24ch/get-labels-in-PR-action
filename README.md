@@ -1,7 +1,6 @@
 
 ## Disclaimer
-The custom GitHub Action must be public repository. Also GitHub doesn't support to call action from the internal repository yet.
-This issue is still open in the GitHub roadmap https://github.com/github/roadmap/issues/74
+The custom GitHub Action must be public repository. Also GitHub doesn't support to call action from the internal repository yet. This issue is still open in the GitHub roadmap https://github.com/github/roadmap/issues/74 \
 In other words, this repo is public by design. :)
 
 # Get Labels in PR 
