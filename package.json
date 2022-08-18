@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/scout24ch/is24-get-labels-in-PR-action#readme",
   "dependencies": {
-    "@actions/core": "^1.5.0",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^5.0.0"
   },
   "devDependencies": {
